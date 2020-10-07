@@ -1,4 +1,5 @@
 al
+CMD
 Codecov
 doi
 et
@@ -8,6 +9,7 @@ mixOmics
 pcbi
 pls
 pre
+reprex
 Rohart
 spls
 tibble
