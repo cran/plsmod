@@ -1,15 +1,15 @@
-c02fbd78d3c8c1c9fe424a611b40f542 *DESCRIPTION
+6fb0c796b1590de9fe6402d3768afc00 *DESCRIPTION
 5174dfc514f0941d2edd4b0b4c9941dd *LICENSE
 dad91f44f1d2277cc94d3aafae13f286 *NAMESPACE
-b11883814a8e15435932111495ab66a6 *NEWS.md
+ecd34256cc140a1793daf915962f7491 *NEWS.md
 8011b10108f8674657a02fbe81ea1e70 *R/0_imports.R
 d17e56dcdc157037ec0633b001c1d9e6 *R/pls.R
-d44689f1003f7ff0297bd9e8faadde43 *R/pls_data.R
-0daac20aa84a2aa50d8eca4ba815685b *R/predict.R
+b2b8c991c4b2ee86fa3efe5e5c2751ba *R/pls_data.R
+e23e08239634c935d78e3dc13dfe0f19 *R/predict.R
 ac8eaddf69005ab7d97109d27c952ffd *R/tidiers.R
 2445e2b1081128554d44038ccca0066a *R/wrapper.R
 920b1bbbf82b280c83f2ae00205d3ba1 *README.md
-f22d7fc46939ee7f8352a3250566816d *inst/WORDLIST
+289b1e5bfe9dd80d71678767ae578a2a *inst/WORDLIST
 c7eece554e6e2807bd26def3c26fdd7f *man/multi_predict.Rd
 864b8ba5c4075f24c406e20dfa4d59e1 *man/pls.Rd
 b497e93a096da6fbd4c02ef2b70d7cf8 *man/pls_fit.Rd
@@ -19,5 +19,5 @@ b497e93a096da6fbd4c02ef2b70d7cf8 *man/pls_fit.Rd
 a1e4266ce0892416874138f5ecc17532 *tests/testthat.R
 09577a0235d15f9e0375e18410b6ce63 *tests/testthat/test-class-pls.R
 c46ed1f2c34317cfe6cca73a5a22f0d5 *tests/testthat/test-class-spls.R
-f9898353dba3ab254060a6c4341ee832 *tests/testthat/test-reg-pls.R
+6827be77ebda17dacb56c6630875a5d2 *tests/testthat/test-reg-pls.R
 9851a093a1117e8de2c8197eb2e3e56a *tests/testthat/test-reg-spls.R
