@@ -20,7 +20,7 @@ uni_model  <- mixOmics::plsda(x_tr, y_tr, ncomp = 3)
 # ------------------------------------------------------------------------------
 
 pls_spec <-
-  plsmod::pls(num_comp = 3) %>%
+  parsnip::pls(num_comp = 3) %>%
   set_engine("mixOmics") %>%
   set_mode("classification")
 
@@ -34,7 +34,7 @@ test_that('classification model fitting', {
 
   expect_error(
     parsnip_pls_da <-
-      plsmod::pls(num_comp = 3) %>%
+      parsnip::pls(num_comp = 3) %>%
       set_engine("mixOmics") %>%
       set_mode("classification") %>%
       fit_xy(x = x_tr, y = y_tr),

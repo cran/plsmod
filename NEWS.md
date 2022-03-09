@@ -1,7 +1,11 @@
+# plsmod 0.2.0
+
+* Model definition functions (e.g. `pls()`) were moved to the parsnip package.
+
 # plsmod 0.1.2
 
  * Release to stop CRAN failures on r-devel from mixOmics. 
-
+ 
 # plsmod 0.1.1
 
  * Small updates so that `plsmod` can be run in parallel using psock clusters 

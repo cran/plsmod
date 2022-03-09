@@ -144,14 +144,6 @@ multi_class_probs <- function(object, new_data, comps = NULL) {
 #' @param ... Not currently used.
 #' @export
 #' @rdname multi_predict
-#' @examples
-#' data(meats, package = "modeldata")
-#'
-#' mv_meats <-
-#'   pls(num_comp = 20) %>%
-#'   set_engine("mixOmics") %>%
-#'   set_mode("regression") %>%
-#'   fit_xy(x = meats[-(1:5), 1:100], y = meats[-(1:5), 101:103])
 #'
 multi_predict._mixo_pls <-
   function(object, new_data, num_comp = NULL, type = NULL, ...) {

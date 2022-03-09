@@ -27,7 +27,7 @@ test_that('Multivariate model fitting', {
 
   expect_error(
     parsnip_spls_multi <-
-      plsmod::pls(num_comp = 3, predictor_prop = 1) %>%
+      parsnip::pls(num_comp = 3, predictor_prop = 1) %>%
       set_engine("mixOmics") %>%
       set_mode("regression") %>%
       fit_xy(x = x_tr, y = y_tr),
@@ -80,7 +80,7 @@ test_that('Univariate model fitting', {
 
   expect_error(
     parsnip_spls_uni <-
-      plsmod::pls(num_comp = 3, predictor_prop = 1) %>%
+      parsnip::pls(num_comp = 3, predictor_prop = 1) %>%
       set_engine("mixOmics") %>%
       set_mode("regression") %>%
       fit_xy(x = x_tr, y = y_tr[[1]]),

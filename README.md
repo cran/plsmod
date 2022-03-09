@@ -12,7 +12,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![CRAN
 status](https://www.r-pkg.org/badges/version/plsmod)](https://CRAN.R-project.org/package=plsmod)
 [![Codecov test
-coverage](https://codecov.io/gh/tidymodels/plsmod/branch/master/graph/badge.svg)](https://app.codecov.io/gh/tidymodels/plsmod?branch=master)
+coverage](https://codecov.io/gh/tidymodels/plsmod/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tidymodels/plsmod?branch=main)
 [![R-CMD-check](https://github.com/tidymodels/plsmod/workflows/R-CMD-check/badge.svg)](https://github.com/tidymodels/plsmod/actions)
 <!-- badges: end -->
 
@@ -37,23 +37,34 @@ And the development version from [GitHub](https://github.com/) with:
 devtools::install_github("tidymodels/plsmod")
 ```
 
+## Available Engines
+
+The plsmod package provides engines for the models in the following
+table.
+
+| model | engine   | mode           |
+|:------|:---------|:---------------|
+| pls   | mixOmics | classification |
+| pls   | mixOmics | regression     |
+
 ## Contributing
 
 This project is released with a [Contributor Code of
-Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+Conduct](https://www.contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
 
-  - For questions and discussions about tidymodels packages, modeling,
+-   For questions and discussions about tidymodels packages, modeling,
     and machine learning, please [post on RStudio
     Community](https://community.rstudio.com/new-topic?category_id=15&tags=tidymodels,question).
 
-  - If you think you have encountered a bug, please [submit an
+-   If you think you have encountered a bug, please [submit an
     issue](https://github.com/tidymodels/plsmod/issues).
 
-  - Either way, learn how to create and share a
-    [reprex](https://reprex.tidyverse.org/articles/articles/learn-reprex.html) (a minimal, reproducible example),
-    to clearly communicate about your code.
+-   Either way, learn how to create and share a
+    [reprex](https://reprex.tidyverse.org/articles/articles/learn-reprex.html)
+    (a minimal, reproducible example), to clearly communicate about your
+    code.
 
-  - Check out further details on [contributing guidelines for tidymodels
+-   Check out further details on [contributing guidelines for tidymodels
     packages](https://www.tidymodels.org/contribute/) and [how to get
     help](https://www.tidymodels.org/help/).

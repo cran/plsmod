@@ -31,13 +31,3 @@ appropriate value based on the model's mode.}
 \description{
 Model predictions across many sub-models
 }
-\examples{
-data(meats, package = "modeldata")
-
-mv_meats <-
-  pls(num_comp = 20) \%>\%
-  set_engine("mixOmics") \%>\%
-  set_mode("regression") \%>\%
-  fit_xy(x = meats[-(1:5), 1:100], y = meats[-(1:5), 101:103])
-
-}
