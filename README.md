@@ -5,8 +5,7 @@
 
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/tidymodels/plsmod/workflows/R-CMD-check/badge.svg)](https://github.com/tidymodels/plsmod/actions)
+[![R-CMD-check](https://github.com/tidymodels/plsmod/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tidymodels/plsmod/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![CRAN
@@ -50,7 +49,7 @@ table.
 ## Contributing
 
 This project is released with a [Contributor Code of
-Conduct](https://www.contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+Conduct](https://www.contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
 
 -   For questions and discussions about tidymodels packages, modeling,

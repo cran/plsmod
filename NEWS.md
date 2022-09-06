@@ -1,3 +1,7 @@
+# plsmod 1.0.0
+
+* Small release to correct HTML tags for CRAN.
+
 # plsmod 0.2.0
 
 * Model definition functions (e.g. `pls()`) were moved to the parsnip package.
